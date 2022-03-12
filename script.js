@@ -35,12 +35,6 @@
             name: null,
             dir: null
         },
-        canvas: {
-            gctx: CanvasRenderingContext2D.prototype.clearRect,
-            ctx2d: null,
-            raf: requestAnimationFrame
-        }
-
     }
     class PacketManager {
         static handleServerPacket(data) {
